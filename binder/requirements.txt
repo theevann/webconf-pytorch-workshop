@@ -1,0 +1,7 @@
+torch
+numpy
+torchvision
+colorama
+matplotlib
+ipywidgets
+ipympl
