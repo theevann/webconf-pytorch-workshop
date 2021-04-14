@@ -46,7 +46,7 @@ Check out these others tutorials and courses if you are hungry to learn more:
 
 Binder is an alterantive way to run remote notebooks that does not require a Google account.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/theevann/amld-pytorch-workshop/master) 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/theevann/webconf-pytorch-workshop/master) 
 <br />
 
 
@@ -70,8 +70,8 @@ conda update conda
 #### Step 2: Download repository and install environment
 Now clone the repository:
 ```bash
-git clone https://github.com/theevann/amld-pytorch-workshop.git
-cd amld-pytorch-workshop
+git clone https://github.com/theevann/webconf-pytorch-workshop.git
+cd webconf-pytorch-workshop
 ```
 
 The available `conda` environments can be listed using
@@ -79,7 +79,7 @@ The available `conda` environments can be listed using
 conda env list
 ```
 
-Let's now create a new environment called _'amld-pytorch'_.
+Let's now create a new environment called _'webconf-pytorch'_.
 ```bash
 conda env create -f environments.yml
 ```
@@ -88,7 +88,7 @@ conda env create -f environments.yml
 #### Step 3: Activate/Deactivate the environment
 After the environment has been created, you can **activate** it by
 ```bash
-source activate amld-pytorch
+source activate webconf-pytorch
 ```
 
 Now start the Jupyter notebook by running
