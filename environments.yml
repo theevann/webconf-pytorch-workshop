@@ -1,4 +1,4 @@
-name: amld-pytorch
+name: webconf-pytorch
 channels:
   - anaconda
   - conda-forge
