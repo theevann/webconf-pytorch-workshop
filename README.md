@@ -1,17 +1,18 @@
 This is a tutorial presented during a workshop at the TheWebConf 2021.
 
-It consists of 6 interactive Jupyter notebooks.
+It consists of 7 interactive Jupyter notebooks.
 
 # Notebooks
 
 The links below open the notebooks in Google Colab. This way, you don't have to install anything on your computer and you get a GPU for free. 
 
 1. [Basics](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/1-Basics.ipynb)
-1. [Autograd](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/2-Autograd.ipynb)
-1. [Optimization](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/3-Optimization.ipynb)
-1. [Modules](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/4-Modules.ipynb)
-1. [CNN](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/5-CNN.ipynb)
-1. [Transfer Learning](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/6-Transfer-Learning.ipynb)
+1. [Data](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/2-Data.ipynb)
+1. [Autograd](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/3-Autograd.ipynb)
+1. [Optimization](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/4-Optimization.ipynb)
+1. [Modules](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/5-Modules.ipynb)
+1. [CNN](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/6-CNN.ipynb)
+1. [Transfer Learning](https://colab.research.google.com/github/theevann/webconf-pytorch-workshop/blob/master/7-Transfer-Learning.ipynb)
 
 ### Log in using your Google account
 ![Google Colab Login](figures/colab-connect.png)
