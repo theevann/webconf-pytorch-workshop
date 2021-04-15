@@ -11,13 +11,6 @@ X, y = first_datapoint
 print(f"The images are {type(X)}'s of shape {X.shape}.")
 
 
-### Multi-threading in dataloaders
-
-train_loader = torch.utils.data.DataLoader(
-    dataset=train_dataset, batch_size=batch_size, shuffle=True, num_workers=1
-)
-
-
 ### Neural network implementation
 
 import torch.nn.functional as F  # provides some helper functions like Relu's, Sigmoids, Tanh, etc.

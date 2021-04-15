@@ -1,10 +1,12 @@
 y = f(x)
-y.backward()
+loss = y.abs()
+loss.backward()
 with torch.no_grad():
     x -= lr * x.grad
-x.grad.zero_()
+    x.grad.zero_()
 
 y = f(x)
-y.backward()
+loss = loss_function(y, y_target)
+loss.backward()
 optimizer.step()
 optimizer.zero_grad()
